@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.btn-wrapper button{
+  background-color: bisque;
+  border: 0px;
+  padding: 10px;
+  border-radius: 8px;
+  color: rgb(245, 126, 126);
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+
+button:hover{
+  background-color: rgb(240, 196, 143);
+}
+
+.img-wrapper img{
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.cart-wrapper{
+  border-radius: 20px;
+  height: 250px;
+  width: 300px;
+  border: 1px solid rgb(176, 82, 82);
+  margin: 40px 0px 0px 40px;
+}
+
+.text-wrapper span{
+  font-size: 14px;
+  color: rgb(160, 100, 11);
+}
+
+
+.add-to-cart img{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  margin: 1.5rem 0.2rem 0 0;
+}
+
+.cart-count{
+  position: absolute;
+  right: 10px;
+  top: 14px;
+  z-index: 1;
+  background-color: #f58a3d;
+  padding: 3px;
+  color: #fff;
+  border-radius: 50%;
+  width: 31px;
+  height: 31px;
+}
