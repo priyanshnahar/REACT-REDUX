@@ -1,0 +1,10 @@
+REDUX:-
+
+ACTION:- basically we will define the functions and basically we will dispatch that function (we will dispatch the function using actions)
+
+ACTION-TYPES:- those those types of actions which we are performing like :- INCREMENT, DECREMENT, RESET
+
+REDUCERS:- in reducer we use switch case and define that what action will be performed when clicking the buttons,,,
+           the main thing in reducer is the initial state and the spread operator (...state) 
+
+STORE:-  save all the state which present in the store 
