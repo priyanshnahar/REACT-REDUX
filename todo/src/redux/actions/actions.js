@@ -1,6 +1,10 @@
-export const addToDo = () => {
+export const addToDo = (data) => {
   return {
     type: "ADD_TO_DO",
+    payload: {
+      id: new Date().getTime().toString(),
+      data:data
+    }
   };
 };
 
