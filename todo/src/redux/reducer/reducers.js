@@ -9,7 +9,7 @@ const initialData = {
       const { id, data } = action.payload;
       return {
         ...state,
-        data:[
+        list:[
             ...state.list,
             {
                 id:id,
@@ -20,4 +20,4 @@ const initialData = {
   }
 };
 
-export default todoReducers;
+export default todoReducers; 

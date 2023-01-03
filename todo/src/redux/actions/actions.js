@@ -4,7 +4,7 @@ export const addToDo = (data) => {
     payload: {
       id: new Date().getTime().toString(),
       data:data
-    }
+    } 
   };
 };
 
